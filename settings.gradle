@@ -1,0 +1,3 @@
+include ':beem-android-client'
+include ':app'
+rootProject.name = "BeemOTP"
