@@ -22,6 +22,11 @@ Add this to your module's ```build.gradle```
         }
   
   ## How To Use
+  
+  - Allow internet permission in ```AndroidManifest.xml```
+  
+        <uses-permission android:name="android.permission.INTERNET"/>
+ 
   - Assigning Beem Credentials
 
         BeemCredentials.API_KEY = "<APP_API_KEY>";
@@ -46,7 +51,7 @@ Add this to your module's ```build.gradle```
         Handler handler = new Handler();
         handler.postDelayed(() ->
         {
-            if(_client._isPin)
+            if(client._isPin)
             {
                 //Success
                 //...do something when pin is valid
