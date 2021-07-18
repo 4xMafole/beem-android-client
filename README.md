@@ -1,7 +1,17 @@
 # beem-android-client
-A library to ease the integration with the Beem Africa's OTP service in android application.
+A library to ease the integration with the Beem Africa's APIs in android application.
 _________________________
 [![](https://jitpack.io/v/4xMafole/beem-android-client.svg)](https://jitpack.io/#4xMafole/beem-android-client) [![](https://img.shields.io/badge/platform-android-orang)](https://img.shields.io/badge/platform-android-orange) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
+
+## Supported Features
+- [x] OTP
+- [ ] Airtime
+- [ ] SMS
+- [ ] Two Way SMS
+- [ ] USSD
+- [ ] Mobile Payments
+
+# Getting Started
 
 ## Prerequisites
 Add this in your root ```build.gradle``` file (not on module ```build.gradle``` file)
